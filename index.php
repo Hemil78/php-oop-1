@@ -14,6 +14,5 @@ $pulpFiction = new Movies("Pulp Fiction", "Quentin Tarantino", "John Travolta, U
 
 $fightClub = new Movies("Fight Club", "David Fincher", "Brad Pitt, Edward Norton, Helena Bonham Carter", 1999, "Thriller, Drammatico");
 
-var_dump($pulpFiction, $fightClub);
 
 echo "<h2>I film di oggi sono {$pulpFiction->getTitolo()} e {$fightClub->getTitolo()}, diretti da due famosi registi, {$pulpFiction->getRegisti()} e {$fightClub->getRegisti()}. Un cast di attori davvero impressionante: {$pulpFiction->getAttori()} per il primo e {$fightClub->getAttori()} per il secondo.</h2>";
